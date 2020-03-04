@@ -91,7 +91,7 @@ export default class Header extends Component {
                         // <a className="link-login" onClick={onLogin}>登录</a>
                         // </div>
                     }
-                    <a className="header-icon-github" target="_blank" href="https://github.com/4074/DrawingPlace">
+                    <a className="header-icon-github" target="_blank" href="https://github.com/StarHeartHunt">
                         {this.renderGithubIcon()}
                     </a>
                 </div>
