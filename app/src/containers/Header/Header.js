@@ -83,7 +83,7 @@ export default class Header extends Component {
         return (
             <div className="header">
                 <div className="container">
-                    <a className="logo" href="/">Place</a>
+                    <a className="logo" href="/">Palette</a>
                     { auth.user && auth.user.level && this.renderNavMenu() }
                     {
                         // auth.user && auth.user.level ? this.renderUserInfo() : 
