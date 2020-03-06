@@ -1,3 +1,5 @@
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 # Drawing Place
 
 A website for pixel drawing. Similar to Reddit [r/place](https://www.reddit.com/r/place) and [BiliBili夏日绘板](https://live.bilibili.com/pages/1702/pixel-drawing)
@@ -50,6 +52,10 @@ TODOs
 Welcome to any commit. Even correct my grammatical mistakes.
 
 ## License
+
+Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). See LICENSE.md for more info.
+
+## License(Original Repo)
 (The MIT License)
 
 Copyright (c) 2018 4074 <win.ten@qq.com>
