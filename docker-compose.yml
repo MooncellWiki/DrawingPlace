@@ -1,0 +1,21 @@
+version: "3.7"
+services: 
+  db:
+    container_name: drawing_db
+    image: mongo
+    volumes: 
+      - type: volume
+        source: dbdata
+        target: /data/db
+    restart: unless-stopped
+  node:
+    container_name: drawing_node
+    build: .
+    ports: 
+      - "5200:5200"
+    init: true
+    depends_on: 
+      - db
+    restart: unless-stopped
+volumes: 
+  dbdata:

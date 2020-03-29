@@ -9,7 +9,7 @@ exports.default = {
         port: 5200
     },
     mongo: {
-        host: 'localhost',
+        host: 'drawing_db',
         name: 'place'
     }
 };
