@@ -7,6 +7,7 @@ services:
       - type: volume
         source: dbdata
         target: /data/db
+    restart: unless-stopped
   node:
     container_name: drawing_node
     build: .
@@ -15,5 +16,6 @@ services:
     init: true
     depends_on: 
       - db
+    restart: unless-stopped
 volumes: 
   dbdata:
