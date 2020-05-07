@@ -14,7 +14,7 @@ export default class Canvas extends Component {
 
     size = {
         width: 620,
-        height: 300
+        height: 600
     }
 
     state = {
